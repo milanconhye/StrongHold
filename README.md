@@ -3,7 +3,7 @@
 
 While technology rapidly grows, security becomes the absence for those who don't take it seriously. Whilst it is great to create cutting edge applications which revolutionize the way we think, create and manage; what has happened with protecting these applications from being hacked or the protection of the user's information? Security may be at present but it is not taken as a priority, this needs to change. The aim of this project is to provide companies or individuals an insight and working code in order to protect the integrity of their information or software applications. StrongHold intercepts nearly all attack methods, providing secure account management tools and protects your company software from espionage and social engineering.
 
-<h3>A Preview of how StrongHold works</h3>
+<h3>A preview of how StrongHold works</h3>
 
 //PLACE GIF HERE & YOUTUBE LINK
 
@@ -37,7 +37,8 @@ It is adviced for you to create a new empty table, with the exact column names I
 
 1. Create a new database and give it a relavant name to your project. 
 2. Create a new table within the database and name it <b>usersDB</b>.
-3. Create your columns such that it matches the table below:
+3. Take note of the source url which links to this database, and remember your database username and password.
+4. Create your columns such that it matches the table below:
 
 Column Names                                    | Data Type & Length
 -------------                                   | -------------
@@ -47,8 +48,6 @@ password                                        | VARCHAR(100)
 fullaccess                                      | TINYINT(1) OR BOOL(1)
 accountlocked                                   | TINYINT(1) OR BOOL(1)
 verification                                    | VARCHAR(15)
-
-4. Take note of the source url which links to this database, and remember your database username and password.
 
 <h3>Changing the Database Connection [Source Code]</h3>
 
