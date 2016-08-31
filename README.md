@@ -15,7 +15,7 @@ As you may know, there are three types of Data Encryption: Hashing, Symmetric , 
 
 This project was created so that providing security for your personal or corporate use can easily be merged as one. Although StrongHold does claim to provide numerous layers of security, it is significant for you as a developer to improve upon these layers, making the layers more robust and efficient. However, before further implementing on the application, there are important changes that need to be made to the application so that it simply works is functioning correctly. Thus, there is a configuration manual provided below. Tips on how you make these levels stronger can be found <a href="https://crackstation.net/hashing-security.htm" target="_blank">here</a>.
 
-'StrongHold' is compatible with Mac OSX, Linux, and Windows. 
+Basic Requirements: Any Desktop Operating System which has the support of JVM (Java Virtual Machine) and JDK (Java Development Kit) when editing these files.
 
 <h2>Configuration</h2>
 
