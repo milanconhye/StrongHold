@@ -19,7 +19,7 @@ Basic Requirements: Any Desktop Operating System which has the support of JVM (J
 
 <h2>Configuration</h2>
 
-In this section, I will be going through how you can easily migrate this project to your "Smart" IDE, configure the application such that it connects to your online database and how you can easily adapt the application to your requirements. Although 'StrongHold' uses drivers from MYSQL to power the database, you can use your own database client in which java supports. 
+In this section, I will be going through how you can easily migrate this project to your "Smart" IDE, configure the application such that it connects to your online database and how you can easily adapt the application to your requirements. Although 'StrongHold' uses drivers from MySQL to power the database, you can use your own database client in which java supports. 
 
 <h3>Project Migration</h3>
 
@@ -51,7 +51,7 @@ verification                                    | VARCHAR(15)
 
 <h3>Changing the Database Connection [Source Code]</h3>
 
-In this section, I will be showing you how you can link your database with the 'StrongHold' application. The instructions below will show you the mandatory changes providing that you are using MYSQL as the database server. If you are using something other than MYSQL then the same instructions apply to you, but you must find the correct library online and change the class name within code.
+In this section, I will be showing you how you can link your database with the 'StrongHold' application. The instructions below will show you the mandatory changes providing that you are using MySQL as the database client. If you are using something other than MySQL then the same instructions apply to you, but you must find the correct library online and change the "Class.forName" within code below.
 
 1. Open the Configuration.java file within the 'StrongHold' project.
 2. Within the Configuration.java file, change the following values:
@@ -73,7 +73,7 @@ final static String sourceURL = "jdbc:mysql://localhost:8889/projectLogin_db";
 ```
 
 ```java
-//Change this only if you are using something else other than MYSQL
+//Change this only if you are using something else other than MySQL
 Class.forName("com.mysql.jdbc.Driver");
 ```
 
@@ -82,7 +82,7 @@ Class.forName("com.mysql.jdbc.Driver");
 'StrongHold' provides a two-step verification when logging in, once logged in successfully, you are required to enter a verification code which is sent to your email account. Other emails are also sent throughout the application, such as, when the account is locked. In this section, I will be showing you how you can link your company email account to the StrongHold application so that users and yourself would receive emails of confirmations and important notices. Note that, while StrongHold uses Gmail to send emails, with a simple configuration of the host and properties, you can customize it to your company email domain. 
 
 1. Open the EmailConfiguration.java file within the 'StrongHold' project.
-2. Within the Configuration.java file, change the following code:
+2. Within the EmailConfiguration.java file, change the following code:
 
 ```java
 //Change the following values for the USER_NAME & PASSWORD
