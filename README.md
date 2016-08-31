@@ -7,9 +7,9 @@ While technology rapidly grows, security becomes the absence for those who don't
 
 //PLACE GIF HERE & YOUTUBE LINK
 
-<h2><b>Requirements and Notes</b></h2>
+<h2>Requirements and Notes</h2>
 
-This Application 'StrongHold' was created in JavaFX using 'IntelliJ IDEA', therefore when editing these files, you could use 'IntelliJ IDEA' to import the project folder or simply use your favorite and "Smart" IDE<b>(Java files can be found in /src/)</b>. All code is open-source, but a reference to 'Milan Conhye' would be much appreciated. You may change any asset files, simply just replace the items with your own. Adobe AfterEffect files are included if you wish to change the properties of the timer/progress bar <b>(found in /assets/)</b>. The CSS Design file can easily be adapted to your personal theme (found in /src/design/) and finally the required libraries can be updated and relinked<b>(found in /lib/)</b>.
+This Application 'StrongHold' was created in JavaFX using 'IntelliJ IDEA', therefore when editing these files, you could use 'IntelliJ IDEA' to import the project folder or simply use your favorite and "Smart" IDE <b>(Java files can be found in /src/)</b>. All code is open-source, but a reference to 'Milan Conhye' would be much appreciated. You may change any asset files, simply just replace the items with your own. Adobe AfterEffect files are included if you wish to change the properties of the timer/progress bar <b>(found in /assets/)</b>. The CSS Design file can easily be adapted to your personal theme <b>(found in /src/design/)</b> and finally the required libraries can be updated and relinked <b>(found in /lib/)</b>.
 
 As you may know, there are three types of Data Encryption: Hashing, Symmetric , and Asymmetric. Further information can be found <a href="http://datashieldcorp.com/2013/06/04/3-different-data-encryption-methods/" target="_blank">here</a>. 'StrongHold' uses a Hashing Algorithm called 'BCrypt' with Salt added, this algorithm is not as popular as the other hashing methods, however, this algorithm has known to become impenetrable to this day - obviously with the correct use<b>(the hashing class can be found within /src/StrongHold/BCrypt.java)</b>.
 
@@ -17,7 +17,7 @@ This project was created so that providing security for your personal or corpora
 
 'StrongHold' is compatible with Mac OSX, Linux, and Windows. 
 
-<h2><b>Configuration</b></h2>
+<h2>Configuration</h2>
 
 In this section, I will be going through how you can easily migrate this project to your "Smart" IDE, configure the application such that it connects to your online database and how you can easily adapt the application to your requirements. Although 'StrongHold' uses drivers from MYSQL to power the database, you can use your own database client in which java supports. 
 
@@ -101,6 +101,9 @@ properties.put("mail.smtp.password", pass);
 properties.put("mail.smtp.port", "587");
 properties.put("mail.smtp.auth", "true");
 ```
+<h2>Errors, Bugs and Feedback</h2>
+
+If you come across any of those nasty little things, would like to contribute some ideas towards this project or even if you need some guidance - please do leave a comment and I will try my best to respond as fast as possible. 
 
 <h2>Licence and Agreement</h2>
 
