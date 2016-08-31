@@ -33,7 +33,7 @@ If you wish to carry on using 'IntelliJ IDEA', then you may skip this section, h
 
 <h3>Creating your online database</h3>
 
-It is advised for you to create a new empty table, with the exact column names I will be providing you in this section. The reason for this is, it would give you less work in changing all these names within the project. You will need your database server (MAMP, XAMPP etc) in this section.
+It is advised for you to create a new empty table, with the exact column names I will be providing you in this section. The reason for this is, it would give you less work in changing all these names within the project. This section assumes you have a remote database server such as MAMP, XAMPP etc. You may use a web application such as PHPMyAdmin to create this database. 
 
 1. Create a new database and give it a relevant name to your project. 
 2. Create a new table within the database and name it <b>usersDB</b>.
