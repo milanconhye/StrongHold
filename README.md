@@ -5,7 +5,7 @@ While technology rapidly grows, security becomes the absence for those who don't
 
 <h3>A preview of how StrongHold works</h3>
 
-//PLACE GIF HERE & YOUTUBE LINK
+[![StrongHold Preview](https://img.youtube.com/vi/r2FdE0oyirkE/0.jpg)](https://www.youtube.com/watch?v=r2FdE0oyirk)
 
 <h2>Requirements and Notes</h2>
 
