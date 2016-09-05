@@ -1,7 +1,7 @@
 #StrongHold
 <i>Login &amp; Account Management Forged with Encryption and Security - created using JavaFX</i>
 
-While technology rapidly grows, security becomes the absence for those who don't take it seriously. Although it is great to create these cutting edge applications which revolutionize the way we think, create and manage; what has happened with protecting these applications from being hacked or the protection of the user's information? Security may be at present but it is not taken as a priority. The aim of this project is to provide companies or individuals an insight and working code in order to protect the integrity of their information or software applications. StrongHold intercepts nearly all attack methods, providing secure account management tools and protects your company software from espionage and social engineering.
+Nowadays it is important for corporate applications to be protected and prevail against unauthorized accesses from viewing your private information. The aim of this project is to provide companies or individuals an insight and working code in order to protect the integrity of their information or software applications. From two-step authentication, layers of security and an unbreakable encryption algorithm, StrongHold intercepts nearly all attack methods, providing secure account management tools and protects your company software from espionage and social engineering.
 
 <h3>A preview of how StrongHold works</h3>
 
