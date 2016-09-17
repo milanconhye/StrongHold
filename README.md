@@ -3,13 +3,13 @@
 
 Nowadays it is important for corporate applications to be protected and prevail against unauthorized accesses from viewing your private information. The aim of this project is to provide companies or individuals an insight and working code in order to protect the integrity of their information or software applications. From two-step authentication, layers of security and an unbreakable encryption algorithm, StrongHold intercepts nearly all attack methods, providing secure account management tools and protects your company software from espionage and social engineering.
 
-<h2>StrongHold Preview</h3>
+<h2>StrongHold Preview</h2>
 
 [![StrongHold Preview](https://s14.postimg.org/b080y9wv5/YTStrong_Hold_Logo_Full_Bleed.png)](https://www.youtube.com/watch?v=r2FdE0oyirk)
 
 <h2>Flow Chart</h2>
 
-[![Flow Chart](https://s9.postimg.org/m07c5hisv/Flowchart.png)](https://www.youtube.com/watch?v=r2FdE0oyirk)
+![Flow Chart](https://s9.postimg.org/m07c5hisv/Flowchart.png "Flow Chart")
 
 <h2>Requirements and Notes</h2>
 
